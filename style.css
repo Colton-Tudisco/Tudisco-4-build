@@ -8,6 +8,8 @@ body {
     background-color: #f5f5f5;
     color: #222;
     line-height: 1.6;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
 }
 header {
     background-color: #1a1a2e;
@@ -47,7 +49,6 @@ main {
 }section {
     margin-bottom: 60px;
 }
-
 h2 {
     font-size: 1.6rem;
     margin-bottom: 16px;
@@ -56,18 +57,15 @@ h2 {
     padding-bottom: 6px;
     display: inline-block;
 }
-
 h3 {
     font-size: 1.1rem;
     margin-bottom: 8px;
     color: #1a1a2e;
 }
-
 p {
     margin-bottom: 16px;
     color: #444;
 }
-
 img {
     max-width: 100%;
     border-radius: 8px;
@@ -76,7 +74,6 @@ img {
     list-style: none;
     padding: 0;
 }
-
 #skills ul li {
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
@@ -88,7 +85,6 @@ img {
     gap: 20px;
     margin-bottom: 30px;
 }
-
 .card-row section {
     background-color: #fff;
     border-radius: 8px;
@@ -98,22 +94,18 @@ img {
     display: flex;
     flex-direction: column;
 }
-
 .card-row section p {
     flex-grow: 1;
 }
-
 .card-row section h4 {
     margin-top: auto;
     padding-top: 16px;
 }
-
 .card-row section h4 a {
     color: #e94560;
     text-decoration: none;
     font-size: 0.95rem;
 }
-
 .card-row section h4 a:hover {
     text-decoration: underline;
 }
@@ -125,22 +117,18 @@ footer {
     font-size: 0.9rem;
 }
 @media (min-width: 768px) {
-
     header h1 {
         font-size: 2.4rem;
     }
-
     nav ul {
         flex-direction: row;
         justify-content: center;
         gap: 16px;
         padding: 14px 0;
     }
-
     .card-row {
         flex-direction: row;
     }
-
     .card-row section {
         flex: 1;
     }
